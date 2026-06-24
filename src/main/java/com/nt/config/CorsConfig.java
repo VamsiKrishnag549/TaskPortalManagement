@@ -18,7 +18,7 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of(""https://task-portal-frontend.vercel.app"")
+                List.of("https://task-portal-frontend.vercel.app","http://localhost:5173")
         );
 
         configuration.setAllowedMethods(
