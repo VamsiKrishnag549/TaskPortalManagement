@@ -1,6 +1,5 @@
 services:
-
-* type: web
+ type: web
   name: task-portal-management
   env: java
   buildCommand: chmod +x mvnw && ./mvnw clean package -DskipTests
